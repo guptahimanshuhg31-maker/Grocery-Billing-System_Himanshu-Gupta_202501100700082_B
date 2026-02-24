@@ -3,8 +3,8 @@
 total_amount = 0
 
 for i in range(1, 6):
-    price = float(input(f"Enter price of item {i}: "))
-    quantity = int(input(f"Enter number of units for item {i}: "))
+    price = float(input("Enter price of item {i}: "))
+    quantity = int(input("Enter number of units for item {i}: "))
     
     item_cost = price * quantity
     total_amount += item_cost
@@ -23,4 +23,5 @@ else:
 
 # Display discount and final payable amount
 print("Discount Applied: Rs.", discount)
+
 print("Final Payable Amount: Rs.", final_amount)
