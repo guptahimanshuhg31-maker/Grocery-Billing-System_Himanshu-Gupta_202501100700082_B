@@ -68,7 +68,7 @@ class WalletPayment(Payment):
 
         if amount > self.balance:
             print("Payment Failed: Insufficient wallet balance.")
-            self.final_amount = 0   # ✅ Fix: set final amount
+            self.final_amount = 0   
         else:
             self.balance -= amount
             self.final_amount = amount
